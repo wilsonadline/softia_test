@@ -31,6 +31,7 @@ class HomeController extends AbstractController
             $newAttestation->setEtudiant($student);
             $newAttestation->setConvention($convention->getId());
 
+            // J'ai commenté dû à une erreur
             // $em->persist($newAttestation);
             // $em->flush();
 
